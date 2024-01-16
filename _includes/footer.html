@@ -1,0 +1,43 @@
+<footer class="footer">
+  <a class="footer_item" href="/thanks"><img src="/assets/img/webring/mm-1.gif" alt="Webbutton to email" style="height:31px;width:88px;" ></a></a>
+  <a href="mailto:mittens28.req3f@aleeas.com"><img src="/assets/img/webring/email.gif" alt="Webbutton to email" style="height:31px;width:88px;" ></a>
+  <a href="https://www.vim.org" target="_blank" alt="vim.org"><img src="/assets/img/webring/vim.gif"></a>
+  <a href="https://getmonero.org" target="_blank" alt="getmonero.org"><img src="/assets/img/webring/monero-now.gif"></a>
+  <a href="/browserconfig.xml"><img src="/assets/img/webring/rss.gif" alt="Webbutton to rss feed" style="height:31px;width:88px;"></a>
+
+  <small class="footer_copyright">
+ 
+    powered by 
+    <a href="https://spacelegion.org" target="_blank" rel="noreferrer noopener"
+      >spacelegion</a
+    >
+  </small>
+  <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
+</footer>
+<script src="/assets/js/main.js" defer="defer"></script>
+{%- if site.google_analytics -%}
+  <!-- Google tag (gtag.js) -->
+  <script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "{{ site.google_analytics }}");
+  </script>
+{%- endif -%}
+{%- if page.url == '/archive/' -%}
+  <script src="/assets/js/search.min.js"></script>
+  <script>
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('search-results'),
+      json: '/assets/search.json',
+    });
+  </script>
+{%- endif -%}
