@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Password Managers in 2023"
+title: "Password Managers do you need them(2023)?"
 date: 2023-09-04
 ---
 

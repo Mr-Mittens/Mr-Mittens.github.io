@@ -10,7 +10,7 @@ A guy who's hooked on spending most of his time in front of a screen.
 The catch? He tends to forget things quite often. 
 So, here's his digital archive - that helps him keep everything in check. 
 If you stumble upon any articles that strike a chord with you, that's absolutely fantastic!
-Enjoy the content!
+Enjoy the content! let me know your feedbacks down below ⇩
 
 
 ### Chatbox  

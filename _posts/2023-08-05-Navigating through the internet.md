@@ -1,9 +1,15 @@
 ---
 layout: post
-title: "Navigating the internet"
+title: "Navigating Through the internet"
 date: 2023-08-05
----
+description: When you're online, it's crucial to follow certain practices and etiquettes. By doing so, you'll always stay one step ahead of the game and rock the internet like a pro! 🚀💻 Be savvy & be secure.
+tag:
+  - tips
+  - privacy
+  - free-software
+image: 
 
+---
 
 ## Navigating Through the internet
 
